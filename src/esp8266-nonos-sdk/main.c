@@ -1,3 +1,6 @@
+// Example code from
+//   https://github.com/platformio/platform-espressif8266/blob/master/examples/esp8266-nonos-sdk-blink/platformio.ini
+
 #include "osapi.h"
 #include "user_interface.h"
 

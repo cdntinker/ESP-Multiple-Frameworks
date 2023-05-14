@@ -1,3 +1,6 @@
+// Example code from
+//   https://electrosome.com/esp8266-arduino-programming-led-blink/
+
 /*
 ESP8266 Blink
 Blink the blue LED on the ESP8266 module

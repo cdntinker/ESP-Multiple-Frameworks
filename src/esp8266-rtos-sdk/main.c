@@ -1,3 +1,8 @@
+// Example code from
+//   https://github.com/platformio/platform-espressif8266/tree/develop/examples/esp8266-rtos-sdk-blink
+//
+// Except...  This one actually functions...
+
 #include "esp_common.h"
 #include "freertos/task.h"
 #include "gpio.h"
