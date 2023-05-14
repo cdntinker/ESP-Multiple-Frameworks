@@ -1,2 +1,6 @@
-# NOT_Arduino_ESP
+# ESP-Multiple-Frameworks
 Playin' around with the ESP8266 outside the Tarduino ecosystem...
+
+& messin' about with multiple source directories...
+
+Current test hardware:  Generic D1-mini clone
