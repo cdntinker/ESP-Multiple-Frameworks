@@ -4,22 +4,9 @@
 #include "osapi.h"
 #include "user_interface.h"
 
+void blinky(void *arg);
+
 static os_timer_t ptimer;
-
-
-
-
-void blinky(void *arg)
-{
-	static uint8_t state = 0;
-
-	if (state) {
-		GPIO_OUTPUT_SET(2, 1);
-	} else {
-		GPIO_OUTPUT_SET(2, 0);
-	}
-	state ^= 1;
-}
 
 void ICACHE_FLASH_ATTR user_init(void)
 {
