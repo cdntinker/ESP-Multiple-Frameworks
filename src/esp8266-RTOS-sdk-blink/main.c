@@ -8,7 +8,6 @@
 
 #include "Functions.h"
 
-
 // "Main" function
 void user_init(void)
 {
