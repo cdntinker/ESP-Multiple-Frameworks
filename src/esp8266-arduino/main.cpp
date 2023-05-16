@@ -1,5 +1,5 @@
 // Example code from
-//   https://electrosome.com/esp8266-arduino-programming-led-blink/
+//   https://electrosome.com/esp8266-arduino-programming-led-Blink/
 
 /*
 ESP8266 Blink
