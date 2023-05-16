@@ -150,8 +150,8 @@ sniffer_wifi_scan_done(void *arg, STATUS status)
             if (bss->channel != 0)
             {
                 struct router_info *info = NULL;
-                os_printf("channel %d, ssid %s, authmode %d, rssi %d\n", bss->channel, bss->ssid, bss->authmode,
-                          bss->rssi);
+                os_printf("channel %d,\trssi %d,\tauthmode %d,\tssid %s\n",
+                          bss->channel, bss->rssi, bss->authmode, bss->ssid);
                 channel_bits |= 1 << (bss->channel);
                 info = (struct router_info *)malloc(sizeof(struct router_info));
                 info->authmode = bss->authmode;
